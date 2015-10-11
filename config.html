@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+	    <meta charset="utf-8">		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script>
+			function ausgabe() {
+ 				$("#15").val(localStorage.getItem("15"));
+ 				$("#14").val(localStorage.getItem("14"));
+ 				$("#13").val(localStorage.getItem("13"));
+ 				$("#12").val(localStorage.getItem("12"));
+ 				$("#11").val(localStorage.getItem("11"));
+ 				$("#10").val(localStorage.getItem("10"));
+ 				$("#9").val(localStorage.getItem("9"));
+ 				$("#8").val(localStorage.getItem("8"));
+ 				$("#7").val(localStorage.getItem("7"));
+ 				$("#6").val(localStorage.getItem("6"));
+ 				$("#5").val(localStorage.getItem("5"));
+ 				$("#4").val(localStorage.getItem("4"));
+ 				$("#3").val(localStorage.getItem("3"));
+ 				$("#2").val(localStorage.getItem("2"));
+ 				$("#1").val(localStorage.getItem("1"));
+ 			
+ 			}
+			$(document).ready(function(){
+				ausgabe();
+				$("#los").click(function(){	
+				console.log("Hallo");
+					localStorage.clear();
+					localStorage.setItem("15", $("#15").val());
+					localStorage.setItem("14", $("#14").val());
+					localStorage.setItem("13", $("#13").val());
+					localStorage.setItem("12", $("#12").val());
+					localStorage.setItem("11", $("#11").val());
+					localStorage.setItem("10", $("#10").val());
+					localStorage.setItem("9", $("#9").val());
+					localStorage.setItem("8", $("#8").val());
+					localStorage.setItem("8", $("#7").val());
+					localStorage.setItem("6", $("#6").val());
+					localStorage.setItem("5", $("#5").val());
+					localStorage.setItem("4", $("#4").val());
+					localStorage.setItem("3", $("#3").val());
+					localStorage.setItem("2", $("#2").val());
+					localStorage.setItem("1", $("#1").val());
+				
+				});				
+			}); 
+		</script>
+		<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-65645544-1', 'auto');
+			  ga('send', 'pageview');
+		</script>
+
+		
+	</head>
+	<body>
+			<div class="banner">
+				<p>Lege hier fest, ab welcher Prozentzahl welche Notenpunkte
+				zu vergeben sind. Um die Standardeinstellungen wiederherzustellen, 
+				klicken auf <a href="#reset">wiederherstellen</a>!</p>
+			</div>
+		
+			
+			<div class="header">			
+					<h1 class="text-center">Notenrechner</h1>					
+					<nav role="navigation">
+						
+					</nav>      
+			</div>	
+			
+				<div class="sektion">
+				<br>
+				
+					<table class="tabelle">
+						<tr><th>Notenpunkte</th><th>ab Prozent</th></tr>
+						<tr><td class="td">15</td><td><input class="config" type="number" name="15" min="0" max="100" size="5" value="94.4" id="15" disabled></tr>
+						<tr><td class="td">14</td><td><input class="config" type="number" name="14" min="0" max="100" size="5" value="90.0" id="14" disabled></tr>
+						<tr><td class="td">13</td><td><input class="config" type="number" name="13" min="0" max="100" size="5" value="84.4" id="13" disabled></tr>
+						<tr><td class="td">12</td><td><input class="config" type="number" name="12" min="0" max="100" size="5" value="80.0" id="12" disabled></tr>
+						<tr><td class="td">11</td><td><input class="config" type="number" name="11" min="0" max="100" size="5" value="74.4" id="11" disabled></tr>
+						<tr><td class="td">10</td><td><input class="config" type="number" name="10" min="0" max="100" size="5" value="70.0" id="10" disabled></tr>
+						<tr><td class="td">9</td><td><input class="config" type="number" name="9" min="0" max="100" size="5" value="64.0" id="9" disabled></tr>
+						<tr><td class="td">8</td><td><input class="config" type="number" name="1" min="0" max="100" size="5" value="60.0" id="8" disabled></tr>
+						<tr><td class="td">7</td><td><input class="config" type="number" name="8" min="0" max="100" size="5" value="54.0" id="7" disabled></tr>
+						<tr><td class="td">6</td><td><input class="config" type="number" name="7" min="0" max="100" size="5" value="50.0" id="6" disabled></tr>
+						<tr><td class="td">5</td><td><input class="config" type="number" name="6" min="0" max="100" size="5" value="44.0" id="5" disabled></tr>
+						<tr><td class="td">4</td><td><input class="config" type="number" name="5" min="0" max="100" size="5" value="36.0" id="4" disabled></tr>	
+						<tr><td class="td">3</td><td><input class="config" type="number" name="4" min="0" max="100" size="5" value="28.0" id="3" disabled></tr>
+						<tr><td class="td">2</td><td><input class="config" type="number" name="3" min="0" max="100" size="5" value="19.0" id="2" disabled></tr>
+						<tr><td class="td">1</td><td><input class="config" type="number" name="2" min="0" max="100" size="5" value="11.0" id="1" disabled></tr>						
+					</table>
+				  <br>
+
+				</div>
+
+			 <footer role="contentinfo">
+    
+        
+        
+    </footer>
+	</body>
+</html>
