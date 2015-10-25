@@ -6,51 +6,7 @@
   <link href="css/normalize.css" rel="stylesheet" media="all">
   <link href="css/style.css" rel="stylesheet" media="all">
     <style>
-      .fehler { 
-        width: 80vw;;
-        font-size: 2em;
-        color: red; 
-        position: absolute;
-        top: 1vh;
-        text-align: center;
-        border-style: solid yellow;
-        border-size: 10px;
-
-      }
-      .body {               
-        background-color: #226666;
-        display: -webkit-flex;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;  
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;  
-      }
-      .anmeldung {
-        background-color: #669999;
-        font-size: 2em;
-        font-family: sans-serif;
-        margin: auto;
-        padding: 1vw;        
-      }
-      input[type="submit"] {
-          padding-top: -;
-          padding-bottom: -;
-          margin-top: 10px;
-          margin-bottom: 10px;
-          padding-left: 10px;
-          padding-right: 10px;
-          border-radius: 25px;
-      }
-      .form {        
-          margin-left: 2vw;
-          margin-right: 2vw;
-          margin-bottom: 2vh;
-          margin-top: 2vh;     
-      }
-      
+    
 
     </style>
     

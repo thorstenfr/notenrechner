@@ -24,9 +24,10 @@
 			if($anzahl==1)  {
 				if (isset($_POST["angemeldetbleiben"])) {
 					$_SESSION["name"] = $login;
+					error_log("Es soll angemeldet bleiben", 3, "meine-fehler.log");	
 				
 				}
-					$_SESSION["login"] = "ok";
+				$_SESSION["login"] = "ok";
 				$extra = "notenrechner.php";	
 
 				error_log("[Location: http://$host$uri/$extra]", 3, "meine-fehler.log");	
