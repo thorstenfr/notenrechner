@@ -7,6 +7,8 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
 <html>
     <head>
 	<!--	<meta http-equiv="refresh" content="5; URL=denkpause.html"> -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     	<link href="css/normalize.css" rel="stylesheet" media="all">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="apple-touch-icon" href="pics/ntr_icon.png" />
@@ -39,9 +41,19 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
     <body>
     	<div class="wrap">
     		<div class="logo">
-    			<p role="title" class="title">Notenrechner</p>    			
-    			
+    			<div class="row">
+    				<div class="col-2">
+    				</div>
+    				<div class="col-8">
+    					<p role="title" class="title">Notenrechner</p>
+    				</div>
+    				<div class="col-2">
+    					<i class="material-icons md-48">menu</i>
+    				</div>
 
+    			</div>
+
+    			
     		</div>
 			
 			<div class="banner">
