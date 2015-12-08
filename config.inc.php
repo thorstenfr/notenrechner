@@ -1,7 +1,7 @@
 <?php
         $dbserver = "localhost";
-        $dbuser = "benutzerverwaltu";
-        $dbpass = "be2tnahZPfjUNCKe";
-        $dbname = "benutzerverwaltu";
+        $dbuser = "notenrechner";
+        $dbpass = "notenrechner";
+        $dbname = "notenrechner";
         $logfile = "meine-fehler.log";
 ?>
