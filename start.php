@@ -13,7 +13,8 @@
   </head>
 <body class="body">
 <?php
-if (isset($_GET["f"]) && $_GET["f"] == 1) {
+if (isset($_GET["f"]) && $_GET["f"] == 1)
+ {
   echo "<p class='fehler'>Login-Daten nicht korrekt</p>";
 }
 ?>

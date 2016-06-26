@@ -1,6 +1,8 @@
 <?php
 session_start();
-if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
+// if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") 
+if (1)
+{
 ?>
 
 <!doctype html>

@@ -13,7 +13,9 @@
 		session_start();
 		$host  = htmlspecialchars($_SERVER["HTTP_HOST"]);
 		$uri   = rtrim(dirname(htmlspecialchars($_SERVER["PHP_SELF"])), "/\\");		
-		if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") {
+		// if (isset($_SESSION["login"]) && $_SESSION["login"] == "ok") 
+		if (1)
+		{
 			$extra = "notenrechner.php";			
 		}
 		else {
